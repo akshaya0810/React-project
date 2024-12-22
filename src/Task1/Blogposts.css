@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color:white;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    color: #b3b3b3;
+  }
+  
+  .posts {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .post-card {
+    background-color: white;
+    color: black;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .post-title {
+    font-size: 1.2rem;
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  .post-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .learn-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  

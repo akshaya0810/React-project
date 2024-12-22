@@ -1,0 +1,16 @@
+/* home.css */
+.header {
+    background-color: rgb(219, 132, 26);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+.bottom-image{
+    width: 100%; /* Makes the image span the full width of the screen */
+    height: 450px; /* Maintains the aspect ratio */
+    max-height: calc(100vh - 100px); /* Ensures the image doesn't overflow the screen */
+    object-fit: cover; /* Ensures the image scales properly */
+    margin-top: 0%;
+    border-radius: 0%;
+}

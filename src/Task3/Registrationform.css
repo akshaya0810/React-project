@@ -1,0 +1,59 @@
+/* Registrationform.css */
+
+.form-containerr {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 20px solid plum;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+ 
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .form-groupp {
+    margin-top: 20px;
+  }
+  
+  .form-groupp label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-groupp input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ .bc{
+background-color: plum;
+height:600px;
+margin-top: 20px;
+ }
+ 
+  .submitt-button {
+    width: 100%;
+    padding: 12px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitt-button:hover {
+    background-color: #0056b3;
+  }
+  
