@@ -5,7 +5,7 @@ export default function Loginform() {
   return (
     <div className='bccc'>
     <div className="form-container">
-      <h2>Login Form</h2>
+      <h3>Login Form</h3>
       <form>
         <div className="form-group">
           <label>Email ID:</label>
